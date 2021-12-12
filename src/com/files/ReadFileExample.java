@@ -6,6 +6,7 @@ import java.io.IOException;
 
 public class ReadFileExample {
 	public static void main(String[] args) {
+		
 		BufferedReader brReader = null;
 		try {
 			String strCurrentLine;
@@ -13,8 +14,8 @@ public class ReadFileExample {
 			//FileReader fr = new FileReader("D:\\JAVA\\JavaGitWorkspace\\Java-examples\\Text.txt");
 			//BufferedReader br = new BufferedReader(fr);
 			
-			//brReader = new BufferedReader(new FileReader("D:\\JAVA\\JavaGitWorkspace\\Java-examples\\Text.txt"));
-			brReader = new BufferedReader(new FileReader("D:\\Aari work\\aari1.jpg"));
+			brReader = new BufferedReader(new FileReader("D:\\JAVA\\JavaGitWorkspace\\Java-examples\\Text.txt"));
+			//brReader = new BufferedReader(new FileReader("D:\\Aari work\\aari1.jpg"));
 
 
 			while ((strCurrentLine = brReader.readLine()) != null) {

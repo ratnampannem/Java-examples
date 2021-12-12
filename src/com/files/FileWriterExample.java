@@ -9,15 +9,12 @@ public class FileWriterExample {
 	 
 	        // Content to be assigned to a file
 	        // Custom input just for illustratinon purposes
-	        String text
-	            = "Computer Science Portal GeeksforGeeks \n hello";
+	        String text = "Computer Science Portal GeeksforGeeks \n hello";
 	 
 	        // Try block to check if exception/s occurs
 	        try {
-	            // Create a FileWriter object
-	            // to write in the file
-	            FileWriter fWriter = new FileWriter(
-	                "D:\\JAVA\\JavaGitWorkspace\\Java-examples\\Text1.txt");
+	            // Create a FileWriter object to write in the file
+	            FileWriter fWriter = new FileWriter("D:\\JAVA\\JavaGitWorkspace\\Java-examples\\Text1.txt");
 	 
 	            // Write into the file
 	            // The content taken above inside the string
@@ -32,8 +29,7 @@ public class FileWriterExample {
 	            // Display message to be printed on the console
 	            // window after successful execution of the
 	            // program
-	            System.out.println(
-	                "File is created successfully with the content.");
+	            System.out.println("File is created successfully with the content.");
 	        }
 	 
 	        // Catch block to handle if exception occurs
