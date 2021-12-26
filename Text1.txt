@@ -1,2 +1,7 @@
-Computer Science Portal GeeksforGeeks 
- hello
+A named location used to store the data is called a file.
+File Operations  are
+	1.Create a File
+	2.Get File Information
+	3.Write to a File
+	4.Read from a File
+	5.Delete a File

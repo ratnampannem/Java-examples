@@ -15,7 +15,7 @@ public class CamelCaseToSnakeCase {
 			StringBuilder sb = new StringBuilder();
 			for(String str : strArray) {
 				System.out.println(str);
-				sb.append(str + "_");
+				//sb.append(str + "_");
 			}
 			System.out.println(sb.toString());
 		}
