@@ -2,6 +2,10 @@ package com.gererics;
 
 public class Employee implements Cloneable {
 	
+		/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 		int empno; 
 		String name;
 		public int getEmpno() {
