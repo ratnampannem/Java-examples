@@ -13,6 +13,6 @@ public class IntegerArraySum {
 			sum = sum + intArray[i];
 			
 		}
-		System.out.println( "Sum is  " + sum);
+		System.out.println( "Sum is 11111sss " + sum);
 	}
 }
