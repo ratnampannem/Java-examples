@@ -34,7 +34,7 @@ public class NameComparatorCheck {
 		Collections.sort(sinfoList, new NameComparator());
 		
 		for(StudentInfo sinfo : sinfoList){
-			System.out.println("Student name is " + sinfo.name);
+			System.out.println("Student name is " + sinfo.name + " \t "+ "Student age is " + sinfo.age);
 		}
 		
 	}

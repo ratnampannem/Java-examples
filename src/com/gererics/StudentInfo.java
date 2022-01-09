@@ -4,9 +4,6 @@ import java.io.Serializable;
 
 public class StudentInfo implements Serializable{
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	int rollno;  
 	String name;  

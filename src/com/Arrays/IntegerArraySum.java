@@ -1,7 +1,14 @@
 package com.Arrays;
 
+import org.apache.log4j.Logger;
+
 public class IntegerArraySum {
+	static Logger logger = Logger.getLogger(IntegerArraySum.class);
 	public static void main(String[] args) {
+		
+		logger.debug("this is a debug log message 111");
+        logger.info("this is a information log message 111");
+        logger.warn("this is a warning log message 1111");
 		
 		int[] intArray = {10,20,5,50,30};
 		int sum=0,length = intArray.length;

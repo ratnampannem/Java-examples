@@ -3,13 +3,24 @@ package com.collection.map;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.apache.log4j.Logger;
+
+import com.Arrays.IntegerArraySum;
+
 public class MapExample {
+	
+	static Logger logger = Logger.getLogger(MapExample.class);
 	public static void main(String[] args) {
+		logger.debug("this is a debug log message MMMMMM");
 		MapExample mapEx = new MapExample();
 		mapEx.getInfo();
 	}
 
 	private void getInfo() {
+		
+		logger.debug("this is a debug log message MMMMMM 1");
+        logger.info("this is a information log message MMMMMM 1");
+        logger.warn("this is a warning log message MMMMMM 1");
 		
 		Map<Integer, String> hmap = new HashMap<>();
 		hmap.put(1, "Apple");
