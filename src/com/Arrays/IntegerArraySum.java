@@ -10,7 +10,7 @@ public class IntegerArraySum {
         logger.info("this is a information log message 111");
         logger.warn("this is a warning log message 1111");
 		
-		int[] intArray = {10,20,5,50,30};
+		int[] intArray = {10,20,5,50,30,60,70};
 		int sum=0,length = intArray.length;
 			System.out.println( "length is " + length);
 			System.out.println( "index is " + intArray[0]);
